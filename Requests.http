@@ -1,0 +1,27 @@
+### GET /tarefas
+GET http://localhost:5224/tarefas
+
+### GET /tarefas/{id}
+GET http://localhost:5224/tarefas/1
+
+### POST /tarefas
+POST http://localhost:5224/tarefas
+Content-Type: application/json
+
+{
+  "descricao": "Estudar C# 3",
+  "concluida": false
+}
+
+
+### PUT /tarefas
+PUT http://localhost:5224/tarefas/5
+Content-Type: application/json
+
+{
+  "descricao": "sdfasfasdfsdfsdfsd",
+  "concluida": false
+}
+
+### DELETE /tarefas/{id}
+DELETE http://localhost:5224/tarefas/2
